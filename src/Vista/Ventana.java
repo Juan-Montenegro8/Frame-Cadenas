@@ -17,8 +17,8 @@ public class Ventana extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
+        jpNegro = new javax.swing.JPanel();
+        jpContenedor1 = new javax.swing.JPanel();
         lblNombre = new javax.swing.JLabel();
         txtnombre = new javax.swing.JTextField();
         btnregistrar = new javax.swing.JButton();
@@ -26,7 +26,7 @@ public class Ventana extends javax.swing.JFrame {
         txtrespuesta = new javax.swing.JTextField();
         lblApellido = new javax.swing.JLabel();
         txtapellido = new javax.swing.JTextField();
-        jPanel3 = new javax.swing.JPanel();
+        jPContenedor2 = new javax.swing.JPanel();
         btnlongitud = new javax.swing.JButton();
         btnmayusculas = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -36,7 +36,7 @@ public class Ventana extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jpNegro.setBackground(new java.awt.Color(0, 0, 0));
 
         lblNombre.setText("Nombre");
 
@@ -57,8 +57,8 @@ public class Ventana extends javax.swing.JFrame {
 
         lblApellido.setText("Apellido");
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jpContenedor1);
+        jpContenedor1.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
@@ -119,8 +119,8 @@ public class Ventana extends javax.swing.JFrame {
         area.setRows(5);
         jScrollPane1.setViewportView(area);
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPContenedor2);
+        jPContenedor2.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
@@ -150,15 +150,15 @@ public class Ventana extends javax.swing.JFrame {
         lblModelosCadenas.setForeground(new java.awt.Color(255, 255, 255));
         lblModelosCadenas.setText("Modelo de cadenas");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jpNegro);
+        jpNegro.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPContenedor2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jpContenedor1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(189, 189, 189)
@@ -171,13 +171,13 @@ public class Ventana extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(lblModelosCadenas)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jpContenedor1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPContenedor2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(35, 35, 35))
         );
 
-        getContentPane().add(jPanel1);
+        getContentPane().add(jpNegro);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -245,9 +245,9 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel lblNombre;
     private javax.swing.JLabel lblRespuesta;
     private javax.swing.JLabel lblApellido;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jpNegro;
+    private javax.swing.JPanel jpContenedor1;
+    private javax.swing.JPanel jPContenedor2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField txtapellido;
     private javax.swing.JTextField txtnombre;
